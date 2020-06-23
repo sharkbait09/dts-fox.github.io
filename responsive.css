@@ -1,0 +1,55 @@
+/*Untuk Tablet*/
+@media all and (max-width: 1000px){
+.list-item{
+	width: 100%;
+}
+
+.top-wrapper{
+	width: 100%;
+}
+
+.items{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+}
+
+@media all and (max-width: 670px){
+
+.top-wrapper{
+	width: 123%;
+}
+
+.items{
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.foto{
+	width: 200px;
+	height: 300px;
+}
+
+.list-item span{
+	width: 200px
+}
+
+.tulisan{
+	font-size: 15px;
+}
+
+.txt-content{
+	font-size: 40px;
+}
+
+.list-item p{
+	margin-right: 20px;
+	margin-left: 30px;
+}
+
+.bawah h2{
+	font-size: 25px;
+}
+
+}
