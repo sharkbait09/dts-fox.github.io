@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 body{
 	font-family: sans-serif;
 	margin: 0;
@@ -11,6 +15,9 @@ a {
 	max-width: 1170px;
 	width: 100%;
 	margin: 0 auto;
+	height: 0 auto;
+	/*display: flex;
+	flex-wrap: wrap;*/
 }
 
 .btn{
@@ -35,7 +42,7 @@ header{
 }
 
 .logo{
-	width: 100px;
+	width: 150px;
 	margin-top: 10px;
 	padding: 0 30px;
 }
@@ -47,14 +54,16 @@ header{
 .header-right{
 	float: right;
 	margin-right: 30px;
+	text-align: center;
+	/*width: 100%;*/
 }
 
 .header-right a{
 	line-height: 85px;
   	padding: 0 25px;
   	color: #D3D3D3;
-  	display: block;
-  	float: left;
+  	/*display: block;*/
+  	/*float: right;*/
   	transition: all 0.5s;
   	font-variant: "sans-serif";
 }
@@ -66,6 +75,8 @@ header{
   background-size: cover;
   color: white;
   text-align: center;
+  width: 100%;
+ /* min-width: 100%;*/
 }
 
 .box-shadow{
@@ -74,7 +85,7 @@ header{
 	position: relative;
 	height: 200px;
 	display: inline-block;
-	margin:50px 0;
+	margin:50px 250px;
 }
 
 .box-shadow h1{
@@ -148,13 +159,6 @@ header{
 	
 }
 
-.list-item p{
-	position: absolute;
-	width: 100%;
-	color:#3b3b3b;
-	top:80%;
-}
-
 .item-wrapper{
 	height: 780px;
 	background-color: #f7f7f7;
@@ -163,6 +167,10 @@ header{
 .foto{
 	width: 330px;
 	height:440px;
+}
+
+.foto:hover{
+	transform: scale(0.9);
 }
 
 
@@ -185,21 +193,22 @@ header{
 	letter-spacing: 0.8px;
 }
 
-.list-icon p{
-	position: absolute;
-	top:4px;
-	width: 100%;
-	color: #3b3b3b;
-	margin-left: 50px;
-}
-
 .txt-content{
-	display: inline-block;
+	/*display: inline-block;*/
 	font-size: 65px;
 	text-align: center;
 	letter-spacing: 12px;
 	font-family: helvatica;
+	position: absolute;
 
+}
+
+.list-item p{
+	position: absolute;
+	margin-left: 70px;
+	color:#3b3b3b;
+	margin-right: 70px;
+	top: 0;
 }
 
 .message-wrapper{
@@ -255,8 +264,9 @@ footer{
 	padding-bottom: 80px;
 	background-color: #3b3b3b;
 	color: white;
-	height: 150px;
+	height: 220px;
 	font-family: raleway;
+	/*margin-top: 30px;*/
 }
 
 .garis-tepi{
